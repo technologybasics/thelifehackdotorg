@@ -1,3 +1,10 @@
+# Site-level redirects
+[[redirects]]
+  from = "/affiliate/xyz"
+  to = "https://thelifehack.org/"
+  status = 301
+  force = true
+ 
 [build]
   publish = "dist"
   command = "npm run build"
